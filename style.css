@@ -2,8 +2,8 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: #316092;
-    --fundo-senha: #00244D;
+    --cor-de-fundo: #3070b4;
+    --fundo-senha: #1e4169;
     --fundo-texto: #001E40;
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
@@ -136,12 +136,12 @@ label {
 }
 
 .media {
-    background-color: #FAF408;
+    background-color: #dfdc29;
     width: 50%;
 }
 
 .forte {
-    background-color: #369e6c;
+    background-color: #0d864c;
     width: 100%;
 }
 
@@ -155,4 +155,24 @@ label {
     .parametro-coluna__senha {
         flex-direction: row;
     }
+}
+.botao-gerar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#gerar-senha {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #6cda70; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#gerar-senha:hover {
+    background-color: #256e28; 
 }
